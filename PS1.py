@@ -38,21 +38,32 @@ rt = [400, 450, 500, 440, -1, 410, 570]
 
 # the -1 indicates missing data. Your job is to remove it
 # use the index method to find the missing value 
-missing_rt =
+missing_rt = rt[-3]
 
 # and then use missing_rt to remove the trial from rt
-clean_rt =
+clean_rt =rt.remove(missing_rt)
 
 
 # now you have data with more than one missing value
 rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 
 # try the same procedure. Does it work? 
+
+# No
+
 # use a comment to explain why or why not below in comments
+
+#This procdeure removes one value at a time. 
 
 
 
 # now write an if statement that you can use to remove the frist missing value 
+x=-1
+if x==-1:
+    clean_rt_trouble = rt_trouble.remove(x)
+    print(rt_trouble)
+Out[18]: [400, 450, 500, 440, 410, 570, -1, 400]
+
 # only when there is a missing value (-1) in a list 
 # this statement should always generate a clean_rt list; if there's no missing
 # data clean_rt is set to the original rt list.   
