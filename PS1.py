@@ -17,11 +17,11 @@ Alex = 'hello world! python line " + '1'
 print(Alex)
 
 # second group member's error to fix
-coder2 = pizza + 'beer' + 'wine'
+Negar = 'pizza' + 'beer' + 'wine'
 
 # now the second group member should define a variable with an error
 # and then commit and push changes to GitHub
-coder3 =
+coder3 = 1 + 2 +'3'
 
 # etc. until all group members have fixed and made 1 error
 
