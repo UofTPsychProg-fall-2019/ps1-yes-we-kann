@@ -87,15 +87,8 @@ data=[rt_new.remove(-1),trial_num.remove(5)]
 
 
 
-print(data)
-[None, None]
+data=[rt_new,trial_num,accuracy]
 
-
-
-print(rt_new)
-
-[400, 450, 500, 440, 410, 570]
-
-print(trial_num)
-[1, 2, 3, 4, 6, 7]
+data
+Out[26]: [[400, 450, 500, 440, 410, 570], [1, 2, 3, 4, 6, 7], [0, 1, 0, 0, 1, 0]]
 
