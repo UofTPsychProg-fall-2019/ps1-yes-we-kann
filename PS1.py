@@ -83,3 +83,19 @@ data = [rt_new, trial_num, accuracy]
 # be sure to only work with the master data list, to practice indexing 
 # lists of lists
 
+data=[rt_new.remove(-1),trial_num.remove(5)]
+
+
+
+print(data)
+[None, None]
+
+
+
+print(rt_new)
+
+[400, 450, 500, 440, 410, 570]
+
+print(trial_num)
+[1, 2, 3, 4, 6, 7]
+
