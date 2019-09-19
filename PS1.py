@@ -24,7 +24,8 @@ Negar = 'pizza' + 'beer' + 'wine'
 Niro = '1' + '2' +'3'
 
 #Katherine Bak fix this
-Coder 4 = 'pizza' + icecream + chocolate + 'candy' 
+Katherine = 'pizza' + 'icecream' + 'chocolate' + 'candy' 
+
 
 
 # etc. until all group members have fixed and made 1 error
