@@ -87,7 +87,6 @@ data = [rt_new, trial_num, accuracy]
 data=[rt_new.remove(-1),trial_num.remove(5)]
 
 
-
 data=[rt_new,trial_num,accuracy]
 
 data
