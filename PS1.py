@@ -50,11 +50,11 @@ rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 
 # try the same procedure. Does it work? 
 
-# No
+# Answer: No
 
 # use a comment to explain why or why not below in comments
 
-#This procdeure removes one value at a time. 
+# Answer: This procdeure removes one value at a time. 
 
 
 
